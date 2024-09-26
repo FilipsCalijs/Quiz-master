@@ -19,7 +19,7 @@ public class Quiz : MonoBehaviour
         //DisplayQuestion();
     }
 
-    public void OnAnswerSelected(int index)
+     public void OnAnswerSelected(int index)
     {
         Image buttonImage;
 
@@ -40,6 +40,7 @@ public class Quiz : MonoBehaviour
 
         SetButtonState(false);
     }
+
 
     void GetNextQuestion()
     {
